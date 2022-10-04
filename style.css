@@ -1,0 +1,44 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+body {
+    margin-left: 15px;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+h3 > u {
+    color: blue;
+    text-decoration: underline lightcoral;
+}
+
+.intro-pic {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    column-gap: 50px;
+}
+
+.personal-info {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    column-gap: 50px;
+}
+
+.education-bg, .work-expert, .training-expert {
+    display: grid;
+    grid-template-columns: 120px 800px;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.contact-people {
+    display: grid;
+    grid-template-columns: 500px;
+    row-gap: 15px;
+
+}
